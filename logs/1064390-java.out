@@ -1,0 +1,41 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 744milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 744"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 38353"}
+{"logLevel":"info","message":"Listening on port:38353"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.searchAnItem' and 'StepImplementation.searchAnItem'"}
+{"logLevel":"debug","message":"Found Search an item in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.validateThePageTitle' and 'StepImplementation.validateThePageTitle'"}
+{"logLevel":"debug","message":"Found Validate the page title in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.goToGoogle' and 'StepImplementation.goToGoogle'"}
+{"logLevel":"debug","message":"Found Go to google in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.goToXs' and 'StepImplementation.goToXs'"}
+{"logLevel":"debug","message":"Found Go to xs in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tValidate the page title : public void validateThePageTitle() throws InterruptedException"}
+{"logLevel":"debug","message":"\tGo to google : public void goToGoogle() throws InterruptedException"}
+{"logLevel":"debug","message":"\tSearch an item : public void searchAnItem() throws InterruptedException"}
+{"logLevel":"debug","message":"\tGo to xs : public void goToXs() throws InterruptedException"}
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 17312
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 22, 2022 1:24:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Go to google' using 'class StepImplementation.goToGoogle"}
+{"logLevel":"debug","message":"Executing 'Search an item' using 'class StepImplementation.searchAnItem"}
+Gtk-Message: 13:24:29.486: Failed to load module "canberra-gtk-module"
+{"logLevel":"debug","message":"Executing 'Go to google' using 'class StepImplementation.goToGoogle"}
+{"logLevel":"debug","message":"Executing 'Go to xs' using 'class StepImplementation.goToXs"}
+{"logLevel":"debug","message":"Executing 'Validate the page title' using 'class StepImplementation.validateThePageTitle"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
